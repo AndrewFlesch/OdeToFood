@@ -9,7 +9,7 @@
     {
         public string GetMessageOfTheDay()
         {
-            return "Greeting!";
+            return "Greetings!";
         }
     }
 }
