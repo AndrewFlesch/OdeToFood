@@ -11,8 +11,11 @@
     {
         <h2>@restaurant.Id</h2>
         <div>@restaurant.Name</div>
+        <div><a asp-action="Details" asp-route-id="@restaurant.Id">More</a></div>
 
     }
+
+    <a asp-action="Create">Add Restaurant</a>
 
 </body>
 </html>
